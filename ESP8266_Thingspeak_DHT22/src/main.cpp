@@ -37,7 +37,6 @@ void setup() {
   Serial.print("\n\nInitialising...\n\n");
   pinMode(LED_BUILTIN, OUTPUT);
   dht.begin();
-
   WiFi.mode(WIFI_STA);
   ThingSpeak.begin(client);
 }
